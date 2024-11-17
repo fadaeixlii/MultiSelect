@@ -20,29 +20,8 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "types": [
-      "vitest/globals",
-      "@testing-library/jest-dom",
-      "./@types/utility",
-      "./src/charting_library/charting_library.d.ts"
-    ]
+    "types": []
   },
-  "exclude": [
-    "./public",
-    "./src/charting_library",
-    "tailwind.config.js",
-    "vitest.config.ts",
-    "vitest.config.ts",
-    "postcss.config.js",
-    "prettier.config.js",
-    ".eslintrc.cjs",
-    "service-worker.js",
-    "./src/components/utils/lenis.tsx"
-  ],
-  "include": [
-    "./src",
-    "./@types/utility.d.ts",
-    "src/components/common/TradingViewChart/index.tsx",
-    "src/components/common/TradingViewChart/datafeed.tsx"
-  ]
+  "exclude": [],
+  "include": []
 }
