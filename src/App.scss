@@ -1,0 +1,22 @@
+@import url("./styles/multi-select.scss");
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  &::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: #a7a7a79b;
+    opacity: 0.4;
+    mix-blend-mode: difference;
+    margin-right: 2px;
+    border-radius: 5px;
+  }
+}
